@@ -141,16 +141,24 @@ body{
   }
 
 .event-news{
+    width: 32vw;
     animation: slide-top 10s linear 0s infinite;
 }
-
-.card-image{
-    width: 100%;
+.event-news img{
+    width: 15vw;
+    height: 28vh;
+    border-radius: 0.2rem;
+}
+ .event-card-image{
+    width: 20vw;
     height: 28vh;
     border-radius: 0.2rem;
   }
 
-  .card-content{
+  .event-news .card-content{
+    box-sizing: border-box !important;
+    width: 15vw;
+    height: 28vh;
     margin-left: 0.2rem;
   }
   
@@ -185,6 +193,11 @@ body{
     padding-top: 1rem;
     margin: 6rem 8rem;
 
+}
+.campus-card-image{
+    width: 100%;
+    height: 28vh;
+    border-radius: 0.2rem;
 }
 .campus-button{
 
