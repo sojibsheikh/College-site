@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    overflow-x: hidden !important;
+}
+
+ /* kjbnkj */
+ top-header{
+    
+    font-family: helvetica;
+    text-transform: uppercase;
+    overflow-x: hidden;
+  }
+  .row{
+    display:flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    min-width: 100%;
+  }
+  .emergency-notice{
+    display : flex;
+    flex-shrink: 0;
+    height: 50px;
+    align-items: center;
+    animation: slide-left 60s linear infinite;
+  }
+  .emergency-notice-item{
+        color: white;
+      font-size: 1.2rem;
+      font-weight: 100;
+      padding-left: 0.5em;
+    }
+    @keyframes slide-left {
+    from {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  }
+  /* kjbnkj */
+
+.dropdown-mega .dropdown-menu{
+    width:100%;
+}
+.dropdown-mega .list-group-item{
+    border: 0;
+    border-radius: 0.5rem;
+}
+.list-group{
+    
+}
+.dropdown-mega .row{
+}
+.list-group-item:hover{
+    background-color: blue !important;
+    color: #ffffff;
+}
+
+.nav-item {
+    list-style: none;
+}
+.carousel{
+    margin-bottom: 2rem;
+    height: 100vh;
+    width: 100%;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+
+}
+.carousel-caption .card{
+    position: absolute;
+    width: 45%;  
+    height: min-content;
+    top: -400%;
+    left: 65%;
+    
+}
+.carousel-item{
+   
+}
+.carousel-item img{
+    max-height: 100vh;
+    width: 100%;
+}
+
+
+.carousel-caption .carousel-control-prev, .carousel-caption .carousel-control-next{
+    background-color: black;
+    margin: 1rem;
+    position: absolute; 
+    width: 2.8rem;
+    height:2.8rem;
+}
+.carousel-control-prev{
+    top:90%;
+    right:0%;
+    transform: translateX(-38%); 
+    
+}
+.carousel-control-next{
+    top:90%;
+    left:0%;
+    transform: translateX(62%); 
+    
+}
+
+.cards{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.cards-wrapper{
+    background-color: #ffffff;
+    position: absolute;
+    top: 7.6rem;
+    left:10% !important;
+    max-height: 100vh !important;
+    width: 30vw;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    
+}
+@keyframes slide-top {
+    from {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    to {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+  }
+
+.event-news{
+    animation: slide-top 10s linear 0s infinite;
+}
+
+.card-image{
+    width: 100%;
+    height: 28vh;
+    border-radius: 0.2rem;
+  }
+
+  .card-content{
+    margin-left: 0.2rem;
+  }
+  
+  .cards::-webkit-scrollbar {
+    display: none;
+  }
+
+  .parallax-section{
+    padding: 0 5rem;
+    height: 100vh;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#parallax{
+    background-image: url('../images/bg-map02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+	position:relative;
+    background-attachment: fixed; 
+}
+.parallax-section .row {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.campus-cards{
+    padding-top: 1rem;
+    margin: 6rem 8rem;
+
+}
+.campus-button{
+
+}
+.btn-group{
+    width: 50%;
+}
+.box-card .box-card-title{
+    padding: 0.6rem 0;
+}
+.box-card .box-card-title, .box-card .box-card-text{
+    color:#fff;
+}
+.footer{
+    height: 100vh;
+}
+.footer .row{
+
+}
+.footer .footer-title{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem;
+    height: min-content;
+    border-bottom: 2px solid #fff;
+}
+
+.footer .footer-items{
+    height: min-content;
+    color: #fff;
+    text-align: start;
+}
+.footer-items .footer-item{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    list-style: none;
+} 
+.footer-items .footer-item a{
+    padding: 0.5rem 0;
+    text-decoration: none;
+    color: #b0b0b0;
+    transition: 0.8s all ease-in-out;
+} 
+.footer-items .footer-item a:hover{
+    color: #fff;
+}
+.sub-menu{
+ border-top: 4px solid #fff;
+
+}
+.menu{
+ border-bottom: 4px solid #fff;
+ border-top: 4px solid #fff;
+}
