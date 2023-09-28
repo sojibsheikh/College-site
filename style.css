@@ -175,7 +175,7 @@ body{
 	align-items: center;
 }
 #parallax{
-    background-image: url('../images/bg-map02.jpg');
+    background-image: url('./images/bg-map02.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
