@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown-mega .dropdown-menu{
+    width:100%;
+}
+.dropdown-mega .list-group-item{
+    border: 0;
+    border-radius: 0.5rem;
+}
+.list-group{
+    
+}
+.dropdown-mega .row{
+}
+.list-group-item:hover{
+    background-color: blue !important;
+    color: #ffffff;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.page-title{
+
+}
+
+.notice-header{
+    height: 20vh;
+    
+}
+.card{
+    padding: 4rem;
+}
+.list-group a{
+    text-decoration: none;
+}
+.list-group-item{
+    transition: 0.5s all ease-in-out;
+}
+.list-group-item:hover{
+    color: #fff;
+    background-color: #0DCAF0; 
+    transition: 0.4s all ease-in-out;
+}
+
+
+
+.footer{
+    height: 100vh;
+}
+.footer .row{
+
+}
+.footer .footer-title{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem;
+    
+    height: min-content;
+    border-bottom: 2px solid #fff;
+}
+
+.footer .footer-items{
+    height: min-content;
+    color: #fff;
+    text-align: start;
+    
+}
+.footer-items .footer-item{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    list-style: none;
+} 
+.footer-items .footer-item a{
+    padding: 0.5rem 0;
+    text-decoration: none;
+    color: #b0b0b0;
+    transition: 0.8s all ease-in-out;
+} 
+.footer-items .footer-item a:hover{
+    color: #fff;
+}
+.sub-menu{
+ border-top: 4px solid #fff;
+
+}
+.menu{
+ border-bottom: 4px solid #fff;
+ border-top: 4px solid #fff;
+}

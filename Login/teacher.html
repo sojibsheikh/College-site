@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown-mega .dropdown-menu{
+    width:100%;
+}
+.dropdown-mega .list-group-item{
+    border: 0;
+    border-radius: 0.5rem;
+}
+.list-group{
+    
+}
+.dropdown-mega .row{
+}
+.list-group-item:hover{
+    background-color: blue !important;
+    color: #ffffff;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+
+.footer{
+    height: 100vh;
+}
+.footer .row{
+
+}
+.footer .footer-title{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem;
+    
+    height: min-content;
+    border-bottom: 2px solid #fff;
+}
+
+.footer .footer-items{
+    height: min-content;
+    color: #fff;
+    text-align: start;
+    
+}
+.footer-items .footer-item{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    list-style: none;
+} 
+.footer-items .footer-item a{
+    padding: 0.5rem 0;
+    text-decoration: none;
+    color: #b0b0b0;
+    transition: 0.8s all ease-in-out;
+} 
+.footer-items .footer-item a:hover{
+    color: #fff;
+}
+.sub-menu{
+ border-top: 4px solid #fff;
+
+}
+.menu{
+ border-bottom: 4px solid #fff;
+ border-top: 4px solid #fff;
+}
+    </style>
+    <title>Login</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <div class="col-lg-2">
+                <a class="navbar-brand text-white fw-bold fs-2" title="Institute Logo" href="#">Navbar</a>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse col-lg-9" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item text-light">
+                <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                    <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./About/At_a_Glance/At_a_Glance.html">At A Glance</a></li>
+                        <li><a class="dropdown-item" href="./About/History/History.html">History </a></li>
+                        <li><a class="dropdown-item" href="./About/aims_and_goals/goals.html">Aims & Goals</a></li>
+                        <li><a class="dropdown-item" href="./About/why/why.html">Why </a></li>
+                    </ul>
+              </li>
+              
+              
+
+              <li class="nav-item dropdown">
+                    <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Academic
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./Academic/teacherPanel/TeacherPanel.html">Teachers</a></li>
+                        <li><a class="dropdown-item" href="./Academic/ClassRoutine/classRoutine.html">Class Routine</a></li>
+                        <li><a class="dropdown-item" href="./Academic/ExamSchedule/examSchedule.html">Exam Schedule </a></li>
+                        <li><a class="dropdown-item" href="./Academic/Syllabus/syllabus.html"> Syllabus</a></li>
+                        <li><a class="dropdown-item" href="./Academic/holiday/holiday.html">Holidays </a></li>
+                    </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Admission 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">HSC</a></li>
+                    <li><a class="dropdown-item" href="#">Honors </a></li>
+                </ul>
+                </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Notices
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./Notices/officialNotice/officialNotice.html">Administrative</a></li>
+                    <li><a class="dropdown-item" href="./Notices/academicNotice/academicNotice.html">Academic</a></li>
+                    <li><a class="dropdown-item" href="./Notices/EventsAndNewsNotice/eventsNotice.html">Events & News </a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gallery
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./Gallery/photoGallery.html">Photo</a></li>
+                    <li><a class="dropdown-item" href="./Gallery/videoGallery.html">Video </a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Results
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./Results/student.html">Academic Results</a></li>
+                    <li><a class="dropdown-item" href="#">Board Results </a></li>
+                </ul>
+              </li>
+
+
+              <!-- <li class="nav-item dropdown dropdown-mega position-static">
+                <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-auto-close="outside"  data-bs-toggle="dropdown" aria-expanded="false">
+                  MegaMenu
+                </a>
+                <div class="dropdown-menu shadow">
+                    <div class="mega-content px-md-4">
+                        <div class="container-fluid">
+                            <div class="row ">
+                                <div class="col-lg-3 col-sm-6 py-4 ">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item fw-bold">Accordian1</a>
+                                        <hr class="dropdown-divider">
+                                        <a href="#" class="list-group-item">Accordian1</a>
+                                        <a href="#" class="list-group-item">Accordian1</a>
+                                        <a href="#" class="list-group-item">Accordian1</a>
+                                        <a href="#" class="list-group-item">Accordian1</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4 ">
+                                    <div class="list-group ">
+                                        <a href="#" class="list-group-item fw-bold">Accordian1</a>
+                                        <hr class="dropdown-divider">
+                                        <a href="#" class="list-group-item ">Accordian1</a>
+                                        <a href="#" class="list-group-item">Accordian1</a>
+                                        <a href="#" class="list-group-item">Accordian1</a>
+                                        <a href="#" class="list-group-item">Accordian1</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </li> -->
+
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="./Contact/contact.html">Contact</a>
+              </li>
+
+            </ul>
+            <ul class="navbar-nav d-flex col-lg-1">
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./Login/student.html">Student</a></li>
+                        <li><a class="dropdown-item" href="./Login/teacher.html">Teacher</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+   <div class="container-fluid ">
+    <div class="row d-flex justify-content-around m-4 ">
+        <div class="col-lg-6 rounded  shadow bg-primary p-5 text-light">
+            <div class="user-icon d-flex justify-content-around py-4">
+                <i class="fa-solid fa-user fs-2 text-light border border-2 border-dark rounded p-2"></i>
+            </div>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">User Name</label>
+                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-info text-light">Submit</button>
+              </form>
+        </div>
+    </div>
+   </div>
+
+    <!-- Footer start-->
+    
+    <div class="footer bg-dark py-3 "> 
+        <div class="row p-2 sub-menu">
+            <div class="col-lg-3 my-2 col-md-4 ">
+                <a href="#" class="footer-title" >Department Name</a>
+                <ul class="footer-items my-4">
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 my-2 col-md-4 ">
+                <a href="#" class="footer-title">Department Name</a>
+                <ul class="footer-items my-4">
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 my-2 col-md-4 ">
+                <a href="#" class="footer-title">Department Name</a>
+                <ul class="footer-items my-4">
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 my-2 col-md-4 ">
+                <a href="#" class="footer-title">Department Name</a>
+                <ul class="footer-items my-4">
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                    <li class="footer-item"><a href="#">Subject Name</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row p-2 menu">
+            <div class="col-lg-3 my-2 col-md-4 ">
+                <a href="#" class="footer-title">CONTACT US</a>
+                <ul class="footer-items my-4">
+                    <li class="footer-item"><a href="#">Institute, Rajshahi-6100</a></li>
+                    <li class="footer-item"><a href="#">Telephone: +88 02588855475</a></li>
+                    <li class="footer-item"><a href="#">Fax: +88 02588851511</a></li>
+                    <li class="footer-item"><a href="#">Email: collegebd@gmail.com</a></li>
+                    <li class="footer-item"><a href="#">Website</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 my-2 col-md-4 ">
+                <a href="#" class="footer-title">USEFUL LINKS</a>
+                <ul class="footer-items my-4">
+                    <li class="footer-item"><a href="#">Rajshahi Education Board</a></li>
+                    <li class="footer-item"><a href="#">Ministry of Education</a></li>
+                    <li class="footer-item"><a href="#">National University</a></li>
+                    <li class="footer-item"><a href="#">DSHE</a></li>
+                    <li class="footer-item"><a href="#">RMP</a></li>
+                    <li class="footer-item"><a href="#">Liberation War Musuem</a></li>
+                    <li class="footer-item"><a href="#">E-Learning</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 my-2 col-md-4 ">
+                <a href="#" class="footer-title">ACADEMIC LINKS</a>
+                <ul class="footer-items my-4">
+                    <li class="footer-item"><a href="#">Accounting Technologies</a></li>
+                    <li class="footer-item"><a href="#">Business Administration</a></li>
+                    <li class="footer-item"><a href="#">Business Law</a></li>
+                    <li class="footer-item"><a href="#">Entrepreneurship</a></li>
+                    <li class="footer-item"><a href="#">Tourism and Hospitality</a></li>
+                    <li class="footer-item"><a href="#">Marketing</a></li>
+                    <li class="footer-item"><a href="#">Public Relations</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 my-2 col-md-4 ">
+                <a href="#" class="footer-title">SOCIAL LINKS</a>
+                <ul class="footer-items my-4 d-flex justify-content-around">
+                    <li class="footer-item"><a href="#"><i class="fa-brands fa-facebook-f fs-4"></i></a></li>
+                    <li class="footer-item"><a href="#"><i class="fa-solid fa-envelope fs-4"></i></a></li>
+                    <li class="footer-item"><a href="#"><i class="fa-brands fa-linkedin-in fs-4"></i></a></li>
+                    <li class="footer-item"><a href="#"><i class="fa-brands fa-twitter fs-4"></i></a></li>
+                    <li class="footer-item"><a href="#"><i class="fa-brands fa-youtube fs-4"></i></a></li>
+                    <li class="footer-item"><a href="#"><i class="fa-brands fa-github fs-4"></i></a></li>
+                </ul>
+                <form class="my-4">
+                    <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success mt-2" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row pt-3">
+            <h6 class="footer-reserved text-center text-light">© 2023 <span class="text-danger"> SR Themes </span> - <span class="bg-success px-1 mx-1"> EXPERT ERROR </span> themes and plugins. All rights reserved.</h6>
+        </div>
+    </div>
+    <!-- Footer end-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
